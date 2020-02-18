@@ -5,7 +5,7 @@
 //applico uno sconto del 40% se si verifica la condizione per cui etaPasseggero è >= a 65
 
 var km = prompt('quanti km devi percorrere?');
-var etaPasseggero = prompt('quanti anni hai?')
+var etaPasseggero = prompt('quanti anni hai?');
 
 var costoPerKm = 0.21;
 
