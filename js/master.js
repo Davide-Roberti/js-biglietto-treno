@@ -10,9 +10,9 @@ var etaPasseggero = prompt('quanti anni hai?');
 var costoPerKm = 0.21;
 
 if (etaPasseggero < 18) {
-    var costoTotale = (costoPerKm * km) - (((costoPerKm * km)*20) / 100);
+    var costoTotale = (costoPerKm * km) - (((costoPerKm * km) * 20) / 100);
 } else if (etaPasseggero >= 65) {
-    var costoTotale = (costoPerKm * km) - (((costoPerKm * km)*40) / 100);
+    var costoTotale = (costoPerKm * km) - (((costoPerKm * km) * 40) / 100);
 } else {
     var costoTotale = (costoPerKm * km);
 }
